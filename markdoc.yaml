@@ -1,0 +1,42 @@
+wiki-name: PyChina.org Static Wiki # Set this to whatever you want
+#google-analytics: UA-34850864-1
+
+## ...other settings...
+disqus_shortname: wiki2pychina4org
+author_name: Zoom Quiet
+author_display_name: Zoom.Quiet
+author_gravatar: 26221c6d3cedc50c506aa699e2765252
+author_email: i@zoomquiet.io
+author_web: http://zoomquiet.io
+author_github: ZoomQuiet
+author_gittip: https://www.gittip.com/ZoomQuiet/
+author_coderwall: zoomquiet
+
+# Directories
+hide-prefix: "."
+wiki-dir: "data"
+static-dir: "_static"
+html-dir: ".html"
+template-dir: "_templates"
+temp-dir: ".tmp"
+
+# Building
+document-extensions: [.md, .markdown]
+generate-listing: always
+listing-filename: "_list.html"
+use-default-static: true
+use-default-templates: true
+
+# Rendering
+markdown:
+  safe-mode: false
+  output-format: xhtml1
+  extensions:
+    - codehilite # the important bit
+    - def_list
+    - headerid
+    - toc
+    - wikilinks
+
+
+

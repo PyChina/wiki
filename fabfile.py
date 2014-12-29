@@ -5,7 +5,7 @@ import os
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = '.html'
 env.qrsync_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
-env.qrsync_cfg = '../7niu-zhgdg.json'
+env.qrsync_cfg = '../7niu4pychina.json'
 
 
 def serve():

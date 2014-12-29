@@ -50,6 +50,8 @@
 <h2>华蠎资源:</h2>
 
 <ul>
+<li>官网: <a href="http://pychina.org">PyChina.org</a>
+    </li>
 <li>邮件列表: <a href="https://groups.google.com/forum/#!forum/python-cn">python-cn@googlegroups.com</a>
     <br/>
   (可发空邮件到 python-cn+subscribe@googlegroups.com 即完成订阅)</li>

@@ -6,6 +6,7 @@
 
 - 社区文章:
     + [活动播报](et/_list.html)
+        * [关键链接](KeyUri)
     + [管理文档](doc/_list.html)
     + [教程手册](hd/_list.html)
     + [有关作者](au/_list.html)

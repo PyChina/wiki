@@ -57,10 +57,15 @@
   (可发空邮件到 python-cn+subscribe@googlegroups.com 即完成订阅)</li>
 <li>微博: <a href="http://weibo.com/pychinaorg">PyChinaOrg</a>
     </li>
-<li>微信: <b>PyChinaOrg</b> <i>(建议ing...)</i>
+<li>微信: <b>PyChinaOrg</b> <i>(建设ing...)</i>
 <br/>
 <img src="http://pyconcn.qiniudn.com/zoomquiet/res/icon/PyChinaOrg-qrcode_for_gh_7e3afa7d29d8_258.jpg"/>
     </li>
 <li><a href="http://www.woodpecker.org.cn/">啄木鸟社区</a></li>
 <li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">啄木鸟维基</a></li>
+<li>
+<a href="https://code.google.com/p/cpyug/">cpyug - CPyUG~华蟒用户组 相关邮件列表管理通告收集/维护 - Google Project Hosting</a>
+    </li>
+
+
 </ul>

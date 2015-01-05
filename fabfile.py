@@ -13,8 +13,13 @@ def serve():
 def reserve():
     build()
     serve()
+env.static_path = '_static'
 def build():
-    local('markdoc build')
+    local('markdoc build && '
+            #'ls -la && '
+            'rsync -avzP4 {static_path}/media/ {deploy_path}/media/ && '
+            'pwd '.format(**env)
+        )
 
 def p2cafe():
     build()

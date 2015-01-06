@@ -3,6 +3,54 @@
 # 如何掺合 PyChina 志愿事务?
 欢迎你,光辉的志愿者,愿你的时间/精力/技能 为中国Python 社区的发展留下无法忽视的贡献!
 
+## 背景
+
+- 参考:[自在的行者社区](CpyUgHistoric)
+- 关键词:
+    + 啄木鸟社区 ~ http://www.woodpecker.org.cn/ `CPyUG` 的前身, 2004年成立的,中国第一个 Python 技术社区
+    + CPyUG ~ China Python User Group
+        - 中文名: 中国Python用户组 的缩写,以前缩写为 `CPUG` , 2005年 由啄木鸟社区核心成员发起
+        - 没有官网, 使用 啄木鸟维基 的一个页面作为入口
+        - http://wiki.woodpecker.org.cn/moin/CPUG
+    + PyConChina ~ Python中国大会, PyCon中国 
+        * 是 PyCon.org 授权组织的年度 Python 技术专题大会
+        * 从 2011 年开始每年举办
+        * 正是在筹办 PyCon中国 的过程中,发现有必要让 `CPyUG` 有一个实体社区作为主办方
+        * 进而有了 PyChina.org 的组建
+    + PyChina ~ 2013 年低调发起的新社区, 目标是重新聚焦资源,统筹 Py 相关活动
+        * 官网: http://pychina.org/
+        * 中文名: 蠎中国
+        * 参考: [为什么 PyChina.org ? | PyChina.org Static Wiki](http://wiki.pychina.org/IMHO/2014-12-31-why-pychina.html)
+        * [About |PyChina.org | PyChina.org | 蠎中国社区](http://pychina.org/about.html)
+- 简要关系:
+    + 啄木鸟社区 开创了中国 Python 技术社区, 当前已静滞
+    + `CPyUG` 是一个线上社区`品牌`,代表自 2004 开始学习/推广/实践 Python 技术的人群
+    + PyConChina 是 `CPyUG` 核心成员起意,申请成功筹办的年度技术大会 `品牌`
+    + PyChina.org 是通过大会实践,引发的全新技术社区
+- 现有资源:
+    + 啄木鸟社区:
+        * 首页: http://woodpecker.org.cn/
+        * 维基: http://wiki.woodpecker.org.cn/
+        * 聚合: http://woodpecker.org.cn/planet/
+    + `CPyUG` :
+        * 首页: http://wiki.woodpecker.org.cn/moin/CPUG
+        * 列表: https://groups.google.com/forum/#!forum/python-cn
+        * 图书: https://code.google.com/p/openbookproject/
+    + PyConChina:
+        * 官网: http://cn.pycon.org/
+        * 列表: https://groups.google.com/forum/#!forum/pyconchinese
+        * 微博: [PyConCN](http://weibo.com/pyconcn)
+    + PyChina.org
+        * 官网: http://pychina.org/
+        * 服务:
+            - [蠎周刊](http://weekly.pychina.org/)
+            - [PythoniCamp](http://camp.pychina.org/)
+        * 微博: [PyChinaOrg](http://weibo.com/pychinaorg)
+        * 微信: PyChinaOrg
+        * 列表: 
+            - https://groups.google.com/forum/#!forum/pyconchina
+            - https://groups.google.com/forum/#!forum/cnpycon-volunteer
+
 ## 综述
 - [PyChina.org | 蠎中国社区](http://pychina.org/about.html) 
 - 当然, 是个技术社区

@@ -10,6 +10,7 @@
     + [管理文档](doc/_list.html)
     + [教程手册](hd/_list.html)
     + [有关作者](au/_list.html)
+    + [蠎营](PythoniCamp/)
 - [其它](ot/_list.html)
     + [IMHO](IMHO/_list.html)
 

@@ -40,7 +40,7 @@
     * [任务驱动协同流程说明 on PyChina.org | Trello](https://trello.com/c/SXdekOD2/13--)
     * [社区内容运维流程 on PyChina.org | Trello](https://trello.com/c/CzsOUVrm/6--)
 
-## 简单的说
+### 简单的说
 
 就是:
 

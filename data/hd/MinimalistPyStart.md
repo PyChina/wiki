@@ -143,8 +143,8 @@
 
 ## 知乎
 
-- [你是如何自学 Python 的？ - 陈铮的回答 - 知乎](http://www.zhihu.com/question/20702054/answer/15908321)
-
+- [你是如何自学 Python 的？ - 知乎](http://www.zhihu.com/question/20702054)
+    - [@陈铮的回答 - 知乎](http://www.zhihu.com/question/20702054/answer/15908321)
 
 ## 参考:
 

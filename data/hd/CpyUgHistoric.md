@@ -1,7 +1,10 @@
-[TOC]
-
 # 自在的行者社区 
 ~ 简述CPyUG(华蟒用户组)的学习生态
+
+[TOC]
+
+- [社区关键资源](/KeyUri)
+- [有关邮件列表](AbtMaillingList)
 
 ## 源起::
     庄秀丽 <xiuli.zhuang@gmail.com>
@@ -209,6 +212,8 @@
 
 
 ## 是也乎
+
+- 150211 大妈 根据 [为何国内没有靠谱的 Python 论坛? - V2EX](http://www.v2ex.com/t/170350#reply13) 的有关回答增补
 - 150106 大妈 根据微信群的反馈创立
 - 110903 ZoomQuiet 增补细节,列表截屏
 - 110325 ZoomQuiet 迁移为 code.google 维基，增补图书事件

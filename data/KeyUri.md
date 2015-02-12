@@ -6,9 +6,17 @@
 
 ## 核心入口
 
-- 啄木鸟
 - CPyUG
+    + 列表: `python-cn@googlegroups.com`
+    + 订阅: https://groups.google.com/forum/m/#!forum/python-cn
+    + 技巧: [How to Subscribe to Google Groups without GMail, Really - Kevin Locke's Homepage](http://kevinlocke.name/bits/2012/09/05/how-to-subscribe-to-google-groups-without-gmail-really/)
+        * 向 `python-cn+subscribe@googlegroups.com` 发送邮件即可完成订阅
+        * 向 `python-cn+unsubscribe@googlegroups.com` 发送邮件即完成退订
+    + [有关邮件列表](/hd/AbtMaillingList)
 - 蠎中国
+- 啄木鸟
+
+
 
 ## 推荐自学资源
 

@@ -6,6 +6,8 @@
 - [社区关键资源](/KeyUri)
 - [有关邮件列表](AbtMaillingList)
 
+![cpyug_historic_mapping.png（PNG 图像，941x1074 像素）](http://zoomq.qiniudn.com/ZQCollection/map/cpyug_historic_mapping.png?imageView2/2/w/520)
+
 ## 源起::
     庄秀丽 <xiuli.zhuang@gmail.com>
     发件人当地时间 发送时间 12:53 (GMT+08:00)。发送地当前时间：下午12:06。 ✆

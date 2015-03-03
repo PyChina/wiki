@@ -6,7 +6,6 @@
 - [社区关键资源](/KeyUri)
 - [有关邮件列表](AbtMaillingList)
 
-![cpyug_historic_mapping.png（PNG 图像，941x1074 像素）](http://zoomq.qiniudn.com/ZQCollection/map/cpyug_historic_mapping.png?imageView2/2/w/520)
 
 ## 源起::
     庄秀丽 <xiuli.zhuang@gmail.com>
@@ -214,6 +213,9 @@
 
 
 ## 是也乎
+
+![cpyug_historic_mapping.png（PNG 图像，941x1074 像素）](http://zoomq.qiniudn.com/ZQCollection/map/cpyug_historic_mapping.png?imageView2/2/w/640)
+
 
 - 150211 大妈 根据 [为何国内没有靠谱的 Python 论坛? - V2EX](http://www.v2ex.com/t/170350#reply13) 的有关回答增补
 - 150106 大妈 根据微信群的反馈创立

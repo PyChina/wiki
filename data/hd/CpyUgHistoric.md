@@ -163,6 +163,8 @@
 ## 图书事件 
 ~ [《Python 核心编程》应属于社区翻译 - Nicholas_Ding - JavaEye技术网站](http://nicholas-ding.javaeye.com/blog/206347)
 
+(原文已经删, 私人备案: [《Python 核心编程》应属于社区翻译](http://devrel.zoomquiet.io/data/20080704230201/index.html))
+
 因由::
 
 - [CPyUG总第21次.会课理想](http://wiki.woodpecker.org.cn/moin/BPUG/2007-09-01) 中,`宋吉广` 提出"Python核心编程" 的翻译交社区进行;

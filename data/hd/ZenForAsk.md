@@ -48,13 +48,15 @@
 - 保持一颗新手的心
     * 我们都曾经是新手。我们对于数据库的某些方面仍然都是新手。一个人的大脑根本不可能知道一切。即使 Tom Kyte 也时不时要向 Sean Dillon，Cameron O'Rourke 等人提问。所以下次你将要给一个“蠢”问题写一篇讽刺的回复的时候要记住：有一天，在某个论坛，你会提一个蠢问题，而一个自大傲慢的家伙会把你拍得无地自容。
 
-# 参考 =
-*[http://wiki.woodpecker.org.cn/moin/AskForHelp 提问的智慧]* ^图谱版^
 
- * [WhyForeverFresher 为什么我总是菜鸟?!]
-    - [FaqForFreshbird 菜鸟常问对答]
-    - [ProposeForFreshPyer 说与菜鸟]
-    - [SuggestForFreshPyer 给新人们的一点建议]
+
+# = 参考 =
+
+- [提问之禅](ZenForAsk.html)
+- [为什么我总是菜鸟?!](FreshWhyForever.html)
+  + [给新人们的一点建议](FreshSuggestFor.html)
+  + [菜鸟常问对答](FreshbirdFaq.html)
+  + [说与菜鸟](FreshProposeFor.html)
 
 > ----
 > TOC: <wiki:toc/>

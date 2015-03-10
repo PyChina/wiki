@@ -1,6 +1,6 @@
-#summary python-cn mailing list 典章:说与菜鸟
-#labels Historic,Index,Threads
-#sidebar SideToc
+>#summary python-cn mailing list 典章:说与菜鸟
+>#labels Historic,Index,Threads
+>#sidebar SideToc
 
 #= 给新人们的一点建议 =
 

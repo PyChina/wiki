@@ -81,6 +81,8 @@
 
 ### 参考:
 
+- [PyCon 2015 Keynote Speakers | PyCon 2015 in Montréal](https://us.pycon.org/2015/events/keynotes/)
+    + 看看隔壁的 PyCon 大会官网包含了什么...
 - [如何掺合 PyChina 志愿事务? | PyChina.org Static Wiki](http://wiki.pychina.org/doc/HowToJoin.html)
     + [PyCon2014China 志愿者协同手册 PyChina.org | 蠎中国社区](http://pychina.org/imho/cooperate-guider.html)
 - [关 乎社群:19 "自干"无底线 ;-) COSCUP 亲历](http://www.devrel.info/2014-08/ac19-coscup/)

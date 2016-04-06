@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  
+  <head>
+    
+    
+      
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+      
+      
+      <title>
+        QPython : 掌上的Python |
+        PyChina.org Static Wiki 
+      </title>
+      
+      
+        <!-- YUI CSS reset, fonts, base -->
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.0.0/build/cssreset/reset-min.css&amp;3.0.0/build/cssfonts/fonts-min.css&amp;3.0.0/build/cssbase/base-min.css" media="screen, projection" />
+        
+        <link rel="stylesheet" type="text/css" href="../media/css/custom.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="../media/css/style.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="../media/css/pygments.css" media="screen, projection" />
+      
+      
+      
+      
+      
+        
+      
+    
+  </head>
+  
+  <body >
+    
+      
+      
+      
+<div class="site-logo">
+  <img src="http://zoomq.qiniudn.com/CPyUG/zoomquiet-design-collection/pychina/Py_cn_logo_h64.png?imageView2/2/w/32" />
+  </div>
+
+        
+          
+  
+    <ol id="breadcrumbs">
+      
+        <li class="crumb-0 not-last">
+          
+            <a href="../">index</a>
+          
+        </li>
+      
+        <li class="crumb-1 not-last">
+          
+            <a href="./">et</a>
+          
+        </li>
+      
+        <li class="crumb-2 last">
+          
+            2015-05-21-pytalk-qpy
+          
+        </li>
+      
+    </ol> <!-- ol#breadcrumbs -->
+  
+
+        
+      
+      
+      <div id="content">
+        
+        
+        
+        <h1 id="qpython-python">QPython : 掌上的Python</h1>
+<p>~ Python讲坛(01)@线上</p>
+<ul>
+<li>主题简介:主要包括QPython 是如何开始到发展的,与pc相比的差异,还有未来的思考;</li>
+<li>演讲嘉宾:River, QPython作者</li>
+<li>演讲时间:5月21日(周四) 21:12 - 22:22</li>
+<li>演讲方式:线上交流(微信)</li>
+<li>演讲安排:<ul>
+<li>前45分钟,讲师分享,PPT截图 + 文字(单向)</li>
+<li>后25分钟,互动交流(双向)</li>
+</ul>
+</li>
+<li>补充说明:<ul>
+<li>互动环节往往很精彩,请大家提前准备好各种问题</li>
+</ul>
+</li>
+<li>嘉宾简介:River, QPython作者, <ul>
+<li>现居南宁, GDG 南宁核心组织者;</li>
+<li>Quseit Lab 创始人;</li>
+<li>前Zynga任高级系统研发工程师,</li>
+<li>前绿盟科技产品经理,</li>
+<li>前新浪邮件系统开发工程师. </li>
+<li>喜欢历史,旅行,电影,写代码. </li>
+</ul>
+</li>
+<li>相关链接:<ul>
+<li><a href="http://qpython.org/">QPython community</a></li>
+<li><a href="https://play.google.com/store/apps/developer?id=Quseit+Lab">Quseit Lab - Google Play 上的 Andr oid 应用</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="_1">记要</h2>
+<p>将,大致回顾一下 QPython 的历史/由来/开发经验/特点以及未来的设想</p>
+<p>幻灯使用移动版本 WPS 制作的,共同习惯这种全新的分享形式吧</p>
+<h3 id="_2">很久很久以前</h3>
+<p>原需求是 Android 应用总是变动,所以,需要有一种快速直接在移动端部署代码的需求</p>
+<p>最开始 QPython 不是独立 app. 只是个解析引擎,能在 android 应用中解析 py 脚本,
+并将调用请求反馈给原生程序;</p>
+<p>原先只是感觉好玩,果断变成一个独立 app. 时,遇到越来越多的问题,
+原先嘦处理好单纯的解析和请求转发就好.</p>
+<p>变成独立产品后,就必须深入思考:</p>
+<ul>
+<li>什么形式?</li>
+<li>解决什么用户问题?</li>
+<li>如何组织代码?</li>
+<li>...</li>
+</ul>
+<p>在迭代过程中,其实参考了很多现成的 app.</p>
+<p>最终形成了自个儿的设计理念:</p>
+<ul>
+<li>开始只是用控制台结合 SL4A 实现</li>
+<li>再后来,只是自个儿折腾,感觉手机上没有靠谱的编辑器,怎么都不爽利</li>
+<li>于是移植了另外一个开源编辑器,并深入完善后,变成了现在的 <code>QEditor</code></li>
+<li>进一步,为了解决手机上代码输入的问题, 使用了 QRcode 的相关库,实现了可以通过图片形式输入代码!</li>
+<li>再后来,发现面向移动端 Py 环境的库总是不够<ul>
+<li>于是,干脆创建了 <code>QPyPi</code> 概念</li>
+<li>试图维护一个跨平台 Py 库中心</li>
+<li>只是因为问题,到现在也没有完备的建立好跨平台编译链</li>
+</ul>
+</li>
+<li>继续折腾,以至在 PyShop 基础上,专门发布了 <code>QPyPi</code> 的客户端</li>
+<li>当然,至今 QPython 还是一个玩具,只是为了满足自个儿的爱好</li>
+<li>终于,有一天,感觉必须有一个能用 Python 开发一个完备的 Android app. 的环境</li>
+<li>和大妈沟通后, 决定将 Bottle 内置,支持 web app. 的开发</li>
+</ul>
+<p>所以,整个儿的事儿,就是一边折腾,一边积累,最终自然变成今天这种形式</p>
+<ul>
+<li>有意思功能主要有:<ul>
+<li>基于 SL4A , 基于 NFC 可以对 Android 环境发送相关消息</li>
+<li>一个经过深入改造的编辑器,但是,自动缩进等高级功能还没有,真心没那么简单哪!<ul>
+<li>有个老外一直跟进 QPython,但是,语言沟通问题,虽然邀请进入了 github 团队,可惜一直没有活跃起来</li>
+</ul>
+</li>
+<li>当前支持的能力:<ul>
+<li>控制台式的 CLI</li>
+<li>基于 Kivy 的图形模式</li>
+<li>基于 web app 的网页模式</li>
+<li>由于技术原因,必须要有明确的声明,才能从一般模式切换到 OpenGL 模式</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>说到当前有趣的应用?<ul>
+<li>其实, 就是基于 QPython 可以将原先 PC 的经验快速迁移到 移动端</li>
+<li>比如, 比特币 的挖矿机的监控</li>
+<li>以及 安全监控的报警</li>
+<li>...</li>
+</ul>
+</li>
+<li>回到当前开发状态:<ul>
+<li>因为创业,所以,当前只能业务进行推进</li>
+<li>所以,决策后,主要精力放在 web app. 方面</li>
+<li>为什么呢?<ul>
+<li>因为 web 应用专发非常快</li>
+<li>可以将主要精力放在业务逻辑</li>
+<li>而且,可以直接将PC 端的经验复用</li>
+<li>主要是 Android 本身可以视作 Linux </li>
+<li>在移动端跑 web 网站,比并 phonegap 之类要直觉的多</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>QPython 的独特之处</p>
+<ul>
+<li>因为移动端的输入问题</li>
+<li>当前通过 QRCODE 图片输入</li>
+<li>以及 ftp 渠道,可以直接进行代码传送</li>
+<li>当然,关注的是对 PC 的补充,可以和移动端,可以方便的结合起来,完成设想</li>
+<li>当前文档在持续增补,以便大家简单练习后,就可以快速上手,实现各种小工具</li>
+<li>当然,也期望能在企业领域有所发挥<ul>
+<li>当前,已基于微信,用 QPython 实现了一个相关应用</li>
+<li>以后,大家就可以快速定制相关企业应用了</li>
+</ul>
+</li>
+</ul>
+<p>对于未来的规划</p>
+<ul>
+<li>其实,现在来看, 手机就是一种服务器</li>
+<li>最后想走有商业模式的 OSS 路线<ul>
+<li>其实有老外用户有联系,想进行尝试</li>
+<li>可惜,种种原因,没有继续下去</li>
+</ul>
+</li>
+<li>当前 play 市场上<ul>
+<li>点评 10000+</li>
+<li>安装已经过百万了</li>
+<li>当然,都是兴趣驱动</li>
+<li>和一位小伙伴,在业务时间坚持折腾中</li>
+<li>欢迎大家加入, 共同折腾</li>
+</ul>
+</li>
+</ul>
+<h2 id="qa">QA</h2>
+<p>有关键盘的支持</p>
+<ul>
+<li>目前还在进行探索</li>
+<li>期望能通过某种机制,提供来自 web 界面的键盘</li>
+<li>直接接收外部键盘的输入信号</li>
+<li>这样就可以在移动端快速完成输入</li>
+<li>听众反应:<ul>
+<li>"前几年尝试过， 最后因为虚拟键盘问题 始终没法很顺畅的在移动端写代码"</li>
+<li>"当年用plam和pocket pc上的 pocketc ， plam的版本附带一些按钮辅助输入法的不足， pocket pc上是有比较好用的键盘，这两个结合都让输入相对容易些"</li>
+<li>...</li>
+</ul>
+</li>
+<li>大妈乱入: <a href="http://codelab.qpython.org/pythonic/init-my-qpy-env.html">如何自在的折腾QPy |QPython |Python for Android</a><ul>
+<li>其实,完全可以利用现有的工具组合,解决输入问题</li>
+</ul>
+</li>
+<li>River 也承认:<ul>
+<li>我们自己目前很多时候都是在pc上写好服务，然后传上去跑[呲牙]</li>
+<li>在qpython中可以快速编辑来加些调试代码定位问题</li>
+</ul>
+</li>
+</ul>
+        
+        
+        
+
+        <hr class="clear" />
+
+  <br/>
+<p>以上...</p>
+<br/>
+<p>码不停提马上无虫 ;-)</p>
+
+<pre>
+|_|0|_|
+|_|_|0|
+|0|0|0|
+</pre>
+
+
+<h3>PS:</h3>
+
+<p>若无意外,题图都是从原文提取或是通过 Google 图片搜索出来的, 版权属左, 不负责任 ;-)</p>
+
+<h4>PPS:</h4>
+
+<p>社区总是欢迎投稿的,只要追认内容吻合以下条件:</p>
+
+<pre>
+    0. 有趣 ~ 至少是自个儿有兴趣的领域吧...
+    1. 有料 ~ 至少有点儿原创的东西吧..
+    2. 有种 ~ 至少不能是成功学吧!
+</pre>
+
+<p>有好物的,及时向大妈们吼: <a href="mailto:support@pychina.org">support@pychina.org</a></p>
+
+
+<img src="http://pychina.org/_images/PyChina_logo_131217_zq_h200.png?imageView2/2/w/320"/>
+
+<h2>us goal</h2>
+<pre>
+    by Pythonner in China Operations
+    as Pythonner in China Deleloping
+    for Pythonista in Global support events organizing srvice
+</pre>
+
+<h2>华蠎项目:</h2>
+
+<ul>
+<li><a href="http://cn.pycon.org/">PyCon中国</a>
+    </li>
+<li><a href="http://weekly.pychina.org/">蠎周刊</a></li>
+<li><a href="http://camp.pychina.org/">PythoniCamp</a></li>
+<li><a href="https://code.google.com/p/openbookproject/">O.B.P</a>
+    </li>
+</ul>
+
+<h2>华蠎资源:</h2>
+
+<ul>
+<li>官网: <a href="http://pychina.org">PyChina.org</a>
+    </li>
+<li>邮件列表: <a href="https://groups.google.com/forum/#!forum/python-cn">python-cn@googlegroups.com</a>
+    <br/>
+  (可发空邮件到 python-cn+subscribe@googlegroups.com 即完成订阅)</li>
+<li>微博: <a href="http://weibo.com/pychinaorg">PyChinaOrg</a>
+    </li>
+<li>微信: <b>PyChinaOrg</b> <i>(建设ing...)</i>
+<br/>
+<img src="http://pyconcn.qiniudn.com/zoomquiet/res/icon/PyChinaOrg-qrcode_for_gh_7e3afa7d29d8_258.jpg"/>
+    </li>
+<li><a href="http://www.woodpecker.org.cn/">啄木鸟社区</a></li>
+<li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">啄木鸟维基</a></li>
+<li>
+<a href="https://code.google.com/p/cpyug/">cpyug - CPyUG~华蟒用户组 相关邮件列表管理通告收集/维护 - Google Project Hosting</a>
+    </li>
+
+
+</ul>        
+
+        <hr class="clear" />
+
+
+
+
+    Author: <a href="http://zoomquiet.io">
+    <img
+      class="after"
+      src="http://zoomq.qiniudn.com/logos/zq-eyes-IMG_1987-64x64.JPG"
+      alt="Zoom.Quiet"
+      width="32"
+      height="32"
+    />
+    </a>
+      <i>
+        /<a href="mailto:i@zoomquiet.io">mail</a>
+      </i>
+    <b>
+      /<a href="mailto:https://www.gittip.com/ZoomQuiet/">
+        gittip
+        </a>
+    </b>
+    <i>
+        /<a href="https://github.com/ZoomQuiet">
+          github
+          </a>
+      </i>
+
+<br/>
+
+
+  
+
+    <div id="disqus_thread"></div>
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'wiki2pychina4org'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+      </div> <!-- div#content -->
+      
+      
+      <div id="footer">
+        <p>
+          
+            PyChina.org Static Wiki |
+          
+          
+          <a href="_list.html">ls ./</a>
+          | 
+          Powered by <a href="http://markdoc.org/">Markdoc</a>
+          + <a href="https://gitcafe.com/CPyUG/wiki">gitcafe</a>
+          + <a href="http://www.qiniu.com/about">七牛</a>
+
+        </p>
+
+      </div>
+      
+    
+    
+    
+    <hr class="clear" />
+
+
+
+  </body>
+</html>

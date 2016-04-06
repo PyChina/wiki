@@ -16,7 +16,7 @@ author_coderwall: zoomquiet
 hide-prefix: "."
 wiki-dir: "data"
 static-dir: "_static"
-html-dir: ".html"
+html-dir: "html"
 template-dir: "_templates"
 temp-dir: ".tmp"
 
